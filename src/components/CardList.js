@@ -4,7 +4,7 @@ import Card from "./Card";
 const CardList = props => {
   const profiles = props.profiles;
   return (
-    <div>
+    <div className="profiles-list">
       {profiles.map((profile, i) => (
         <Card {...profile} key={i} />
       ))}

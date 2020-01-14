@@ -35,3 +35,8 @@ form {
 .info {
   padding-left: 10px;
 }
+
+.profiles-list {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -26,7 +26,7 @@ export default class Form extends React.Component {
           //   ref={this.userNameInput}
           required
         />
-        <button>Add card</button>
+        <button className="btn btn-primary">Add card</button>
       </form>
     );
   }
